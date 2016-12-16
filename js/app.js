@@ -110,7 +110,7 @@ function makepdf()
   $("#hform [name=title]").val($('#drtitle').html());
   $("#hform [name=subtitle]").val($('#drsubtitle').html());
   $("#hform [name=content]").val($('#cvcontent').html());
-  //$("#hform [name=pdfkey]").val('jobdeersocool');
+  $("#hform [name=pdfkey]").val('jobdeersocool');
   $("#hform").submit();
 }
 
